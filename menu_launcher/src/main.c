@@ -10,8 +10,6 @@
 #include "general.h"
 #include "controller_input.h"
 
-
-
 #define SHARE_KEY 314 // Equivalent to dualsense share button
 #define HOME_KEY 316 // Equivalent to dualsense playstation button
 
