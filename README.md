@@ -12,6 +12,8 @@ This was built using cmake. In the root directory of this repository, run `cmake
 
 ## Interface
 
+![Interface](public/interface.png)
+
 *The launcher will call this executable. It assumes that it is located at `/usr/local/bin/`. I have a custom wrapper script which will call the executable, as I had an odd issue where the window dimensions ncurses calculated were incorrect when calling the program as an argument in the `exec` call. Below is the wrapper script i use.*
 
 *It is worth mentioning that this interface will wait until the Wireless Controller is connected. This is discussed in [Launcher](#launcher). If the device isnt connected. The menu will not display until it is.*
@@ -23,7 +25,6 @@ This was built using cmake. In the root directory of this repository, run `cmake
 resize
 exec /usr/local/bin/container/controller_menu
 ```
-
 
 This was made using ncurses. I've went for a crude, but pleasantly nostalgic look for this interface. It represents the kind of menu you would see on old TVs, and other electronics. It currently consists of 3 options
 
